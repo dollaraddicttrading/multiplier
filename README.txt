@@ -1,23 +1,7 @@
-FLIGHTX CONTROLLED CRASH SIMULATOR
+FLIGHT DOLLAR — Virtual Crash Simulator
 
-HOW TO RUN
-1. Extract the ZIP.
-2. Open the folder.
-3. Double-click index.html. It should open in Chrome, Edge, or another modern browser.
+How to run: Extract the ZIP and open index.html in a modern browser. No install or build step is needed.
 
-HOW TO SET TARGETS IN CODE
-1. Open index.html in Notepad or VS Code.
-2. Find this near the bottom:
-   const CRASH_TARGETS = [1.50, 3.20, 2.00, 8.50, 1.25];
-3. Replace those numbers with your own multiplier targets.
-4. Save and refresh the browser tab.
+Features: 10-second countdown, animated plane and multiplier, manual and auto cash-out, virtual-only stakes and balance, recent crash history, session stats, editable crash target range.
 
-IMPORTANT
-- This is a local, virtual-credit simulator for learning/testing.
-- The visible “Next crash target” field overrides the code array when it contains a valid number.
-- The code array repeats in order.
-- It is not connected to the real Aviator game and cannot predict or control another site's results.
-- No real-money deposits, withdrawals, or betting are included.
-
-CONTINUOUS ROUNDS
-After each crash, the simulator counts down from 10 seconds and automatically launches the next round. Change NEXT_ROUND_DELAY_SECONDS in index.html to use a different delay. Automatic rounds pause if the virtual balance cannot cover the selected stake.
+This is a local front-end demo. Balances and results are browser-only and reset on refresh. It does not process real-money deposits, withdrawals, or prizes. The editable crash target is a testing feature, not a secure or independently verifiable production game.
