@@ -18,3 +18,6 @@ IMPORTANT
 - The code array repeats in order.
 - It is not connected to the real Aviator game and cannot predict or control another site's results.
 - No real-money deposits, withdrawals, or betting are included.
+
+CONTINUOUS ROUNDS
+After each crash, the simulator counts down from 10 seconds and automatically launches the next round. Change NEXT_ROUND_DELAY_SECONDS in index.html to use a different delay. Automatic rounds pause if the virtual balance cannot cover the selected stake.
