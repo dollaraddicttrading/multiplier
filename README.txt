@@ -1,7 +1,20 @@
 FLIGHT DOLLAR — Virtual Crash Simulator
 
-How to run: Extract the ZIP and open index.html in a modern browser. No install or build step is needed.
+Run locally:
+1. Extract the ZIP.
+2. Open index.html in a modern browser.
+3. No build step or server is required.
 
-Features: 10-second countdown, animated plane and multiplier, manual and auto cash-out, virtual-only stakes and balance, recent crash history, session stats, editable crash target range.
+Features:
+- 10-second countdown before each round
+- Animated flight and rising multiplier
+- Manual and automatic cash-out
+- Virtual balance and stakes displayed in KSh
+- Recent crash history and session stats
+- Blue, black and red theme
+- No custom crash settings on the screen
+- 100 editable crash multipliers in the JavaScript CRASH_POINTS array
 
-This is a local front-end demo. Balances and results are browser-only and reset on refresh. It does not process real-money deposits, withdrawals, or prizes. The editable crash target is a testing feature, not a secure or independently verifiable production game.
+To edit crash targets, open index.html in a code editor and change the values in the CRASH_POINTS array near the top of the script. One value is randomly selected each round.
+
+This is a front-end demo using virtual credits only. Balances are local to the browser and reset when refreshed. It does not accept real money, process payments, or provide cash prizes. The configurable targets are for simulator testing, not a fair production gambling system.
